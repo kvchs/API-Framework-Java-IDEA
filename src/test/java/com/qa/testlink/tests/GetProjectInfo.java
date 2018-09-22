@@ -11,7 +11,7 @@ public class GetProjectInfo {
 
     @Test
     public void getProjectInfo(){
-        api = TestLinkUtil.connect();
+        api = TestLinkUtil.connect("https://reqres.in","0d071e8b44527d9fc0aff623edc22db9");
         TestProject[] projects = api.getProjects();
         int projectId = 0;
         for (TestProject project: projects){

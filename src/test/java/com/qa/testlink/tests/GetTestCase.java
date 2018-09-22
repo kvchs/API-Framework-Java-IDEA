@@ -12,7 +12,7 @@ public class GetTestCase {
 
     @Test
     public void getTestCases(){
-        api = TestLinkUtil.connect();
+        api = TestLinkUtil.connect("https://reqres.in","0d071e8b44527d9fc0aff623edc22db9");
         TestSuite[] suites = TestLinkUtil.getFirstLeverTestSuite(api, "api-test-java");
         for (TestSuite suite: suites){
             System.out.println(suite.getName());

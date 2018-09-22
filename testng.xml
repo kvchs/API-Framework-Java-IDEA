@@ -43,6 +43,11 @@
             </class>
         </classes>
     </test>
+    <test name="testLinkAip">
+        <classes>
+            <class name="com.qa.tests.TestLinkTest"/>
+        </classes>
+    </test>
     <listeners>
         <listener class-name="com.qa.report.ExtentTestNGReporterListener"/>
     </listeners>
