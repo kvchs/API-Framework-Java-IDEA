@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口测试" verbose="1" preserve-order="true" parallel="false" >
+    <test  name="测试项目样列">
+        <classes>
+            <class name="com.qa.tests.testCaseOne">
+                <methods>
+                    <include name="logonPost"/>
+                    <include name="getApi"/>
+                    <include name="deleteApi"/>
+                </methods>
+            </class>
+            <!--<class name="com.qa.tests.DeleteApiTest">-->
+                <!--<methods>-->
+                    <!--<include name="deleteApiTest"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="com.qa.tests.GetApiTest">-->
+                <!--<methods>-->
+                    <!--<include name="getAPITest"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="com.qa.tests.PostApiTest">-->
+                <!--<methods>-->
+                    <!--<include name="postApiTest"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="com.qa.tests.PutApiTest">-->
+                <!--<methods>-->
+                    <!--<include name="putTest"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        </classes>
+    </test>
+    <test name="项目2">
+        <classes>
+            <class name="com.qa.tests.testCaseOne">
+                <methods>
+                    <include name="logonPost"/>
+                    <include name="getApi"/>
+                    <include name="deleteApi"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.report.ExtentTestNGReporterListener"/>
+    </listeners>
+</suite>
