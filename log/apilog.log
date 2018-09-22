@@ -1,12 +1,1 @@
-2018-09-22 11:59:23 497 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:25 383 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:26 211 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:26 982 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:27 800 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:28 685 INFO  RestClient:25 - 开始发送无参数的Get请求
-2018-09-22 11:59:29 558 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:31 418 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:32 233 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:33 038 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:33 817 INFO  RestClient:81 - 开始发送POST请求
-2018-09-22 11:59:34 662 INFO  RestClient:25 - 开始发送无参数的Get请求
+2018-09-22 15:37:26 423 INFO  TestBase:21 - 读取配置文件...
